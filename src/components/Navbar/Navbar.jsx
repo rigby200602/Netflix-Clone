@@ -6,6 +6,13 @@ const Navbar = () => {
     <div className='navbars'>
       <div className="navbar-left">
         <img src={logo} alt="Logo" />
+        <ul>
+            <li>Home</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
       </div>
       <div className="navbar-right">
 
