@@ -9,3 +9,6 @@
 .navbar-left ul li {
     cursor: pointer;
 }
+.dropdown {
+    padding:18px 22px
+}
