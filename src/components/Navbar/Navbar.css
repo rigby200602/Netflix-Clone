@@ -12,3 +12,7 @@
 .dropdown {
     padding:18px 22px
 }
+.navbar-profile:hover .dropdown
+{
+    display: block;
+}

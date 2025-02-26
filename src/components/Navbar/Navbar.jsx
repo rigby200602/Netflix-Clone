@@ -27,12 +27,12 @@ const Navbar = () => {
         <img src={search_icon} alt="search-icon" className='cursor-pointer w-[20px]'/>
         <p>Children</p>
         <img src={bell_icon} alt="bell-icon" className='cursor-pointer w-[20px]' />
-        <div className="flex items-center gap-[10px] cursor-pointer relative">
+        <div className="navbar-profile flex items-center gap-[10px] cursor-pointer relative">
           <img src={profile} alt="profile" className='w-[35px] rounded-[4px]' />
           <img src={caret_icon} alt="caret-icon" />
           {/* Dropdown sigh out */}
           <div className="dropdown absolute top-full right-[0] w-max bg-[#191919] px-[22px] py-[18px] rounded-[2px] 
-          underline z-1 ">
+          underline z-1 hidden">
             <p className='text-[13px] cursor-pointer'>Sigh Out of Netflix</p>
           </div>
         </div>
