@@ -6,3 +6,6 @@
     transparent
     )
 }
+.navbar-left ul li {
+    cursor: pointer;
+}
