@@ -10,9 +10,10 @@ const Home = () => {
       <Navbar/>
       <div className="relative">
         <img src={hero_banner} alt="background" className='banner-img w-full'/>
-        <div className="hero_caption">
-          <img src={hero_title} alt="title" />
-          <p>Discovering his ties to a secret ancient order, a young man living in modern Istanbul embarks on a quest to save the city from an immortal enemy.</p>
+        <div className="absolute w-full pl-[6%] bottom-[0]">
+          <img src={hero_title} alt="title" className='w-[90%] max-w-[420px] mb-[30px]'/>
+          <p className='max-w-[720px] text-[17px] mb-[20px]'>
+            Discovering his ties to a secret ancient order, a young man living in modern Istanbul embarks on a quest to save the city from an immortal enemy.</p>
         </div>
       </div>
     </div>
