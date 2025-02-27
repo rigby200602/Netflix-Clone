@@ -1,0 +1,4 @@
+/* hide scrollbar */
+.card_list::-webkit-scrollbar{
+    display: none;
+}
