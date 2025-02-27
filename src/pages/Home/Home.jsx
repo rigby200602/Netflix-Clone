@@ -24,7 +24,7 @@ const Home = () => {
               <img src={play_icon} alt="Play" width='25px'/>
               Play
             </button>
-            <button className='btn inline-flex items-center gap-[10px] text-[15px] font-semibold bg-[#6d6d6eb3] rounded-[4px] cursor-pointer text-[#fff]'>
+            <button className='btn btn2 inline-flex items-center gap-[10px] text-[15px] font-semibold bg-[#6d6d6eb3] rounded-[4px] cursor-pointer text-[#fff]'>
               <img src={info_icon} alt="Info" width='25px'/>
               More Info
             </button>
