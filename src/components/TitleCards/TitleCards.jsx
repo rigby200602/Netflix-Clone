@@ -16,7 +16,7 @@ const TitleCards = ({title}) => {
   },[])
 
   return (
-    <div className='titleCards mt-[50px] mb-[30px]'>
+    <div className='titleCards mt-[50px] mb-[30px] pl-[6%]'>
       <h2 className='mb-[8px] font-bold'>{title?title:"Polular on Netflix"}</h2>
       <div className="card_list flex gap-[10px] mr-8 overflow-scroll" ref={cardsRef}>
         {cards_data.map((card,index) => {
