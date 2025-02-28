@@ -9,7 +9,7 @@ import caret_icon from '../../assets/caret_icon.svg'
 
 const Navbar = () => {
   return (
-    <div className='navbar flex w-full text-sm text-[#e5e5e5] justify-between z-1 absolute'>
+    <div className='navbar flex w-full text-sm text-[#e5e5e5] justify-between z-1 fixed'>
       <div className="navbar-left flex items-center gap-[50px]">
         <img src={logo} alt="Logo" width="90px" />
         {/* List items */}

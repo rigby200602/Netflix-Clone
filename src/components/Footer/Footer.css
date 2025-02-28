@@ -1,0 +1,7 @@
+.footer_icons {
+    width: 30px;
+    cursor: pointer;
+}
+ul{
+    grid-template-columns: auto auto auto auto
+}

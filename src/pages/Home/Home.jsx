@@ -31,13 +31,9 @@ const Home = () => {
               More Info
             </button>
           </div>
-          {/* add Title cards */}
-          
-          
-          
-          
         </div>
       </div>
+      {/* add Title cards */}
       <div className='relative'>
             <TitleCards />
             <TitleCards title={'Blockbuster Movies'}/>
