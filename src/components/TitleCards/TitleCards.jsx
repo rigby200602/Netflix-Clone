@@ -3,7 +3,7 @@ import './TitleCards.css'
 import cards_data from '../../assets/cards/Cards_data'
 
 
-const TitleCards = () => {
+const TitleCards = ({title}) => {
   const cardsRef = useRef();
 
   const handleWheel = (e) =>{
@@ -17,7 +17,7 @@ const TitleCards = () => {
 
   return (
     <div className='titleCards mt-[50px] mb-[30px]'>
-      <h2 className='mb-[8px]'>Popular on Netflix</h2>
+      <h2 className='mb-[8px] font-bold'>{title?title:"Polular on Netflix"}</h2>
       <div className="card_list flex gap-[10px] mr-8 overflow-scroll" ref={cardsRef}>
         {cards_data.map((card,index) => {
           return <div className="card relative" key={index}>

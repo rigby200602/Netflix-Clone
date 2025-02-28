@@ -31,7 +31,13 @@ const Home = () => {
             </button>
           </div>
           {/* add Title cards */}
-          <TitleCards/>
+          <TitleCards />
+          <div className='absolute'>
+            <TitleCards title={'Blockbuster Movies'}/>
+            <TitleCards title={'Only on Netflix'}/>
+            <TitleCards title={'Upcomming'}/>
+            <TitleCards title={'Top picks for you'}/>
+          </div>
         </div>
       </div>
     </div>
