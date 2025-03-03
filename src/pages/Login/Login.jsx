@@ -5,9 +5,12 @@ import logo from '../../assets/logo.png'
 const Login = () => {
   return (
     <div className='login h-screen'>
-      <img src={logo} alt="Logo" width='150px' />
+      <div className='flex items-center justify-center mb-[2%]'>
+        <img src={logo} alt="Logo" width='150px mx-auto flex items-center justify-center' />
+      </div>
+
       <div className="login-form w-full max-w-[450px] rounded-[4px] p-[60px] m-auto">
-        <h1 className='text-[32px] font-medium mb-[28px]'>Sign Up</h1>
+        <h1 className='text-[32px] font-medium mb-[28px] text-center'>Sign Up</h1>
         <form>
           <input type="text" placeholder='Your name' />
           <input type="text" placeholder='Email' />
