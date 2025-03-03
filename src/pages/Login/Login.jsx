@@ -12,13 +12,13 @@ const Login = () => {
           <input type="text" placeholder='Your name' />
           <input type="text" placeholder='Email' />
           <input type="text" placeholder='Password' />
-          <button className='w-full p-[16px] bg-[#e50914] text-white rounded-[4px] text-[16px]'>Sign Up</button>
-          <div className="form-help">
-            <div className="remember"></div>
-             <input type="checkbox" />
-             <label htmlFor="">Remember Me</label>
-             <p>Need help?</p>
+          <button className='w-full p-[16px] bg-[#e50914] text-white rounded-[4px] text-[16px] cursor-pointer'>Sign Up</button>
+          <div className="flex items-center justify-between text-[#b3b3b3] text-[13px]">
+            <div className="remember flex items-center gap-[5px]"></div>
+             <input type="checkbox"/>
+             <label htmlFor="" className='font-medium'>Remember Me</label>
           </div>
+            <p>Need help?</p>
         </form>
       </div>
     </div>
