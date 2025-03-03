@@ -1,8 +1,12 @@
+import { useState } from 'react'
 import React from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
 
 const Login = () => {
+  
+  const [signState,setSignState] = useState("Sign In")
+
   return (
     <div className='login h-screen'>
       <div className='flex items-center justify-center mb-[2%]'>
@@ -10,9 +14,9 @@ const Login = () => {
       </div>
 
       <div className="login-form w-full max-w-[450px] rounded-[4px] p-[60px] m-auto">
-        <h1 className='text-[32px] font-medium mb-[28px] text-center'>Sign Up</h1>
+        <h1 className='text-[32px] font-medium mb-[28px] text-center'>{signState}</h1>
         <form>
-          <input type="text" placeholder='Your name' />
+          {signState === "SignUp" ? <input type="text" placeholder='Your name' /> : <></>}
           <input type="text" placeholder='Email' />
           <input type="text" placeholder='Password' />
           <button className='w-full p-[16px] bg-[#e50914] text-white rounded-[4px] text-[16px] cursor-pointer font-semibold'>Sign Up</button>
