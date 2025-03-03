@@ -30,3 +30,9 @@
     height: 18px;
     width: 18px;
 }
+span {
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
